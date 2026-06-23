@@ -1,0 +1,24 @@
+{
+  "simulation": {
+    "num_days": 365,
+    "random_seed": 42
+  },
+  "scenarios": {
+    "baseline": {
+      "demand_multiplier": 1.0,
+      "lead_time_multiplier": 1.0
+    },
+    "high_demand": {
+      "demand_multiplier": 1.5,
+      "lead_time_multiplier": 1.0
+    },
+    "long_lead_times": {
+      "demand_multiplier": 1.0,
+      "lead_time_multiplier": 2.5
+    },
+    "stress_test": {
+      "demand_multiplier": 1.75,
+      "lead_time_multiplier": 3.0
+    }
+  }
+}

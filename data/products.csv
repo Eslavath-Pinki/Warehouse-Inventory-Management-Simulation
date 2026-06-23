@@ -1,0 +1,6 @@
+product_id,product_name,initial_stock,mean_demand,std_demand,lead_time_min,lead_time_max,holding_cost,stockout_cost,ordering_cost,reorder_point,order_quantity,max_stock,review_period,demand_pattern
+P001,Electronic Components,500,20,5,2,4,0.5,50.0,100.0,120,200,600,7,normal
+P002,Industrial Chemicals,800,35,8,3,6,0.8,80.0,150.0,180,300,900,14,seasonal
+P003,Spare Parts,300,10,3,1,3,0.3,30.0,80.0,60,100,400,7,sporadic
+P004,Raw Materials,1200,50,12,4,8,0.4,60.0,200.0,250,500,1500,14,poisson
+P005,Finished Goods,400,25,0,2,5,0.6,70.0,120.0,150,200,700,7,constant
