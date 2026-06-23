@@ -1,0 +1,5 @@
+[run]
+omit = analysis/charts.py
+
+[report]
+fail_under = 60
